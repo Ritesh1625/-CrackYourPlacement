@@ -9,7 +9,8 @@ int findMinDif(int arr[], int n, int m){
     
   if(n<m){
     return -1;
-    
+  
+  sort(arr, arr+n);
   int min_diff = INT_MAX;
     
   for(int i=0; i+m-1<n; i++){
