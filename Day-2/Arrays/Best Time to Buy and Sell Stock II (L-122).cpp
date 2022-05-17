@@ -1,5 +1,5 @@
 //local maxima - local minima. This is one way.
-//
+//Here we compare consecutive prices and if there is an increase we do a transaction.
 
 class Solution {
 public:
